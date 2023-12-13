@@ -1,6 +1,6 @@
 # include <iostream>
 using namespace std;
-int my_sum(int a, int b, int c);
+int my_sum(int a, int b, int c, int d);
 int main()
 {
 	cout << "Hello world" << endl;
@@ -9,7 +9,9 @@ int main()
 	cout << "edited" << endl;
 	cout << my_sum(2, 4, 6);
 }
-int my_sum(int a, int b)
+
+int my_sum(int a, int b, int c, int d)
 {
-	return a + b;
+	return a + b + c + d;
+
 }
