@@ -9,7 +9,7 @@ int main()
 	cout << "edited" << endl;
 	cout << my_sum(2, 4, 6);
 }
-int my_sum(int a, int b, int c)
+int my_sum(int a, int b)
 {
-	return a + b + c;
+	return a + b;
 }
